@@ -7,7 +7,9 @@
     <title>Gorillaz oficial</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
-<body>
+<body class="background">
+
+    <div class="grid__container">
     <!--header-->
     <header class="cabecera">
         <nav>
@@ -24,6 +26,7 @@
                 <li class="cabecera__boton"><a href="pages/music.html">music</a></li>
 
                 <li class="cabecera__boton"><a href="#contactus">contact us</a></li>
+                
             </ul>
         </nav>
         <hr>
@@ -32,54 +35,73 @@
 
 
     <!--seccion de compra de entradas-->
+    <main>
     <Section id="event">
-        <h1>EVENTOS</h1>
-        <p class="event__texto">02Jun2022
-            NOS ENCANTA EL VERDE 2022
-            LLANURA DE LA BELLE ETOILE
-            PARÍS, FRANCIA</p>
-        <button><a href="https://www.songkick.com/festivals/258278-we-love-green/id/40086382-we-love-green-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+        <h1 id="griditem_titulo">EVENTOS</h1>
 
-        <p class="event__texto">09Jun2022
-            PRIMAVERA SOUND FESTIVAL WEEKEND 2 2022
-            PARQUE DEL FÓRUM
-            BARCELONA, ESPAÑA</p>
-        <button><a href="https://www.songkick.com/festivals/3365319-primavera-sound-weekend-2/id/39856489-primavera-sound-festival-weekend-2-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+        <div class= "container__event">
 
-        <p class="event__texto">11Jun2022
-            NOS PRIMAVERA SOUND 2022
-            PARQUE DE LA CIUDAD
-            OPORTO, PORTUGAL</p>    
-        <button><a href="https://www.songkick.com/festivals/1233638-nos-primavera-sound/id/39865572-nos-primavera-sound-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+            <div id="griditem">
+                <p class="event__texto">02Jun2022
+                NOS ENCANTA EL VERDE 2022
+                LLANURA DE LA BELLE ETOILE
+                PARÍS, FRANCIA</p>
+                <button><a href="https://www.songkick.com/festivals/258278-we-love-green/id/40086382-we-love-green-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+            </div>
 
-        <p class="event__texto">15Jun2022
-            TEATRO ANTIGUO
-            VIENA, FRANCIA</p>
-        <button><a href="https://www.songkick.com/concerts/39890642-gorillaz-at-theatre-antique?utm_source=46422&utm_medium=partner">comprar</a></button>
+            <div id="griditem">
+                <p class="event__texto">09Jun2022
+                PRIMAVERA SOUND FESTIVAL WEEKEND 2 2022
+                PARQUE DEL FÓRUM
+                BARCELONA, ESPAÑA</p>
+                <button><a href="https://www.songkick.com/festivals/3365319-primavera-sound-weekend-2/id/39856489-primavera-sound-festival-weekend-2-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+            </div>
 
-        <p class="event__texto">17Jun2022
-            ARENAS DE NIMES
-            NIMES, FRANCIA</p>
-        <button><a href="https://www.songkick.com/concerts/39648512-gorillaz-at-arenes-de-nimes?utm_source=46422&utm_medium=partner">comprar</a></button>
+            <div id="griditem">
+                <p class="event__texto">11Jun2022
+                NOS PRIMAVERA SOUND 2022
+                PARQUE DE LA CIUDAD
+                OPORTO, PORTUGAL</p>    
+                <button><a href="https://www.songkick.com/festivals/1233638-nos-primavera-sound/id/39865572-nos-primavera-sound-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
+            </div>
 
-        <P><a href="https://www.gorillaz.com/tour/">VER MAS FECHAS</a></P>
-        <hr>
+            <div id="griditem">
+                <p class="event__texto">15Jun2022
+                TEATRO ANTIGUO
+                VIENA, FRANCIA</p>
+                <button><a href="https://www.songkick.com/concerts/39890642-gorillaz-at-theatre-antique?utm_source=46422&utm_medium=partner">comprar</a></button>
+            </div>
+        
+            <div id="griditem">
+                <p class="event__texto">17Jun2022
+                ARENAS DE NIMES
+                NIMES, FRANCIA</p>
+                <button><a href="https://www.songkick.com/concerts/39648512-gorillaz-at-arenes-de-nimes?utm_source=46422&utm_medium=partner">comprar</a></button>
+            </div>
+
+            <div id="griditem">
+                <P><a href="https://www.gorillaz.com/tour/">VER MAS FECHAS</a></P>
+            </div>
+        </div>
     </Section>
+    </main>
     <!--Fin de seccion de compra de entradas-->
 
     <!--footer-->
     <footer id="contactus">
-
+        <hr>
         <h2>CONTACT US</h2>
 
-        <p class="contactus__texto"><img src="iconos/sobre.png" alt=""> gorillazoficial@gmail.com </p>
+        <div class="contactus__texto"><img id="logos" src="media/sobre.png" alt=""> gorillazoficial@gmail.com </div>
         
-        <a class="contactus__texto" target="_blank" href="https://instagram.com/gorillaz?igshid=YmMyMTA2M2Y="><img src="iconos/instagram.png" alt=""> @gorillaz </a>
+        <a class="contactus__texto" target="_blank" href="https://instagram.com/gorillaz?igshid=YmMyMTA2M2Y="><img id="logos" src="media/instagram.png" alt=""> @gorillaz </a>
         
-        <p class="contactus__texto"><img src="iconos/telefono.png" alt=""> 1167857154 </p>
+        <div class="contactus__texto"><img id="logos" src="media/telefono.png" alt=""> 1167857154 </div>
         
     </footer>
 
     <!--fin footer-->
+    </div>
+
 </body>
 </html>
