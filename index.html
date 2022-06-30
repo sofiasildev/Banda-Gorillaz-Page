@@ -1,107 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gorillaz oficial</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body class="background">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gorillaz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body class="background">
 
     <div class="grid__container">
     <!--header-->
-    <header class="cabecera">
+    <header class="cabeceragriditem">
         <nav>
-            <ul>
+            <ul class="nav nav-tabs">
 
-                <li class="cabecera__boton"><a href="pages/artist.html">artist</a></li>
+                <li class="cabeceragriditem">
+                    <a class="nav-link active" aria-current="page" href="pages/artist.html">Artist</a>
+                </li>
 
-                <li class="cabecera__boton"><a href="pages/store.html">store</a></li>
+                <li class="cabeceragriditem">
+                    <a class="nav-link" href="pages/store.html">Store</a>
+                </li>
 
-                <li class="cabecera__boton"><a href="#event">event</a></li>
+                <li class="cabeceragriditem">
+                    <a class="nav-link" href="#event">Event</a>
+                </li>
 
-                <li class="cabecera__boton"><a href="pages/socialnetworks.html">social networks</a></li>
+                <li class="cabeceragriditem">
+                    <a class="nav-link" href="pages/socialnetworks.html">Social networks</a>
+                </li>
 
-                <li class="cabecera__boton"><a href="pages/music.html">music</a></li>
+                <li class="cabeceragriditem">
+                    <a class="nav-link" href="pages/music.html">Music</a>
+                </li>
 
-                <li class="cabecera__boton"><a href="#contactus">contact us</a></li>
-                
-            </ul>
-        </nav>
-        <hr>
+                <li class="cabeceragriditem">
+                    <a class="nav-link" href="#contactus">Contact us</a>
+                </li>
+
+          </ul>
     </header>
-    <!--Fin hearder-->
+    <!--Fin header-->
 
+  <!--Seccion de compra de entradas-->
 
-    <!--seccion de compra de entradas-->
     <main>
     <Section id="event">
-        <h1 id="griditem_titulo">EVENTOS</h1>
-
-        <div class= "container__event">
-
-            <div id="griditem">
+        <div class="grid">
+            <div class="griditem">
                 <p class="event__texto">02Jun2022
                 NOS ENCANTA EL VERDE 2022
                 LLANURA DE LA BELLE ETOILE
                 PARÍS, FRANCIA</p>
-                <button><a href="https://www.songkick.com/festivals/258278-we-love-green/id/40086382-we-love-green-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
-            </div>
-
-            <div id="griditem">
-                <p class="event__texto">09Jun2022
+                <a class="btn btn-primary" href="https://www.songkick.com/festivals/258278-we-love-green/id/40086382-we-love-green-2022?utm_source=46422&utm_medium=partner" role="button">COMPRAR</a></div>
+            <div class="griditem"><p class="event__texto">09Jun2022
                 PRIMAVERA SOUND FESTIVAL WEEKEND 2 2022
                 PARQUE DEL FÓRUM
                 BARCELONA, ESPAÑA</p>
-                <button><a href="https://www.songkick.com/festivals/3365319-primavera-sound-weekend-2/id/39856489-primavera-sound-festival-weekend-2-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
-            </div>
-
-            <div id="griditem">
-                <p class="event__texto">11Jun2022
+                <a class="btn btn-primary" href="https://www.songkick.com/festivals/3365319-primavera-sound-weekend-2/id/39856489-primavera-sound-festival-weekend-2-2022?utm_source=46422&utm_medium=partner" role="button">COMPRAR</a></div>
+          
+            <div class="griditem"><p class="event__texto">11Jun2022
                 NOS PRIMAVERA SOUND 2022
                 PARQUE DE LA CIUDAD
-                OPORTO, PORTUGAL</p>    
-                <button><a href="https://www.songkick.com/festivals/1233638-nos-primavera-sound/id/39865572-nos-primavera-sound-2022?utm_source=46422&utm_medium=partner">comprar</a></button>
-            </div>
-
-            <div id="griditem">
-                <p class="event__texto">15Jun2022
+                OPORTO, PORTUGAL</p>
+                <a class="btn btn-primary" href="https://www.songkick.com/festivals/1233638-nos-primavera-sound/id/39865572-nos-primavera-sound-2022?utm_source=46422&utm_medium=partner" role="button">COMPRAR</a></div>
+            <div class="griditem"><p class="event__texto">15Jun2022
                 TEATRO ANTIGUO
                 VIENA, FRANCIA</p>
-                <button><a href="https://www.songkick.com/concerts/39890642-gorillaz-at-theatre-antique?utm_source=46422&utm_medium=partner">comprar</a></button>
-            </div>
-        
-            <div id="griditem">
-                <p class="event__texto">17Jun2022
-                ARENAS DE NIMES
-                NIMES, FRANCIA</p>
-                <button><a href="https://www.songkick.com/concerts/39648512-gorillaz-at-arenes-de-nimes?utm_source=46422&utm_medium=partner">comprar</a></button>
-            </div>
+                <a class="btn btn-primary" href="https://www.songkick.com/concerts/39890642-gorillaz-at-theatre-antique?utm_source=46422&utm_medium=partner" role="button">COMPRAR</a></div>
 
-            <div id="griditem">
-                <P><a href="https://www.gorillaz.com/tour/">VER MAS FECHAS</a></P>
-            </div>
+                <div class="grid">
+                    <div class="griditem"><p class="event__texto">17Jun2022
+                        ARENAS DE NIMES
+                        NIMES, FRANCIA</p>
+                        <a class="btn btn-primary" href="https://www.songkick.com/concerts/39648512-gorillaz-at-arenes-de-nimes?utm_source=46422&utm_medium=partner" role="button">COMPRAR</a></div>
+                    <div class="griditem"><P><a href="https://www.gorillaz.com/tour/">VER MAS FECHAS</a></P></div>
+
+          </div>
+    
+          <footer id="contactus">
+
+            <hr>
+            
+            <h2>CONTACT US</h2>
+    
+            <div class="contactus__texto"><img id="logos" src="../media/sobre.png" alt=""> gorillazoficial@gmail.com </div>
+            
+            <a class="contactus__texto" target="_blank" href="https://instagram.com/gorillaz?igshid=YmMyMTA2M2Y="><img id="logos" src="../media/instagram.png" alt=""> @gorillaz </a>
+            
+            <div class="contactus__texto"><img id="logos" src="../media/telefono.png" alt=""> 1167857154 </div>
+            
+        </footer>
         </div>
-    </Section>
-    </main>
-    <!--Fin de seccion de compra de entradas-->
 
-    <!--footer-->
-    <footer id="contactus">
-        <hr>
-        <h2>CONTACT US</h2>
+<!--fin footer-->
 
-        <div class="contactus__texto"><img id="logos" src="media/sobre.png" alt=""> gorillazoficial@gmail.com </div>
-        
-        <a class="contactus__texto" target="_blank" href="https://instagram.com/gorillaz?igshid=YmMyMTA2M2Y="><img id="logos" src="media/instagram.png" alt=""> @gorillaz </a>
-        
-        <div class="contactus__texto"><img id="logos" src="media/telefono.png" alt=""> 1167857154 </div>
-        
-    </footer>
-
-    <!--fin footer-->
-    </div>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
