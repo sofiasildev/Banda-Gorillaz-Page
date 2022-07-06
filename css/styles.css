@@ -1,98 +1,91 @@
-/*fondo de la pagina*/
-.background{
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    background-image: url("../media/gorillaz.png");
-    background-repeat: repeat-y;
+header nav ul li {
+  height: fit-content;
 }
 
-.background__other{
-    background: black;
+body.background {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../media/gorillaz.png");
+  background-repeat: repeat-y;
+}
+
+.background__other {
+  background: black;
 }
 
 /*aspectos de la lista*/
-
-.title{
-    color: aliceblue;
-
+.title {
+  color: aliceblue;
 }
 
-.section__music{
-    color: aliceblue;
+.section__music {
+  color: aliceblue;
 }
 
-.section__artist{
-    color: aliceblue;
+.section__artist {
+  color: aliceblue;
 }
 
-img{
-    width: 300px; height: 350px;
+img {
+  width: 300px;
+  height: 350px;
 }
 
-h2{
-    color: white;
-    padding: 10px;
+h2 {
+  color: white;
+  padding: 10px;
 }
 
-
-header{
-    height: fit-content;
-
-
-}
 /*modificaciones en el texto*/
-.event__texto{
-    font-size: x-large;
-    writing-mode: horizontal-tb;
-    padding: 2%;
+.event__texto {
+  font-size: x-large;
+  writing-mode: horizontal-tb;
+  padding: 2%;
 }
 
-.contactus__texto{
-    font-size: x-large;
+.contactus__texto {
+  font-size: x-large;
 }
 
-#contactus{
-    color: aliceblue;
+#contactus {
+  color: aliceblue;
 }
 
-#logos{
-    background-color: aliceblue; width: 50px; height: 50px;
+#logos {
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
 }
 
-.contactus__texto{
-    font-size: larger;
-    width: 40%;
-    color: bisque;
+.contactus__texto {
+  font-size: larger;
+  width: 40%;
+  color: bisque;
 }
- 
 
-
-.row{
-    padding: 20px;
-
-    
+.row {
+  padding: 20px;
 }
 
 /*grid y flex store*/
-
-.img{
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 15px;
+.img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  padding: 15px;
 }
 
-.img__social{
-    width: 200px;
-    height: 200px;
-    padding: 20px;
+.img__social {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
 }
 
 /*MEDIA QUERIES*/
-
 @media screen and (min-width: 600px) {
-    html {
-		font-size: 14px;
+  html {
+    font-size: 14px;
+  }
 }
 
-}
+/*# sourceMappingURL=styles.css.map */
