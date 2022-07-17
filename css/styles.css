@@ -11,16 +11,15 @@ body.background {
 
 .background__other {
   background: black;
-
-  
 } /*aspectos de la lista*/
 .title.section__artist.section__music {
   color: aliceblue;
 }
 
-img {
-  width: 300px;
-  height: 350px;
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-items: center;
 }
 
 h2 {
@@ -53,6 +52,10 @@ h2 {
   font-size: larger;
   width: 40%;
   color: bisque;
+}
+
+.card-body {
+  color: black;
 }
 
 .row {
