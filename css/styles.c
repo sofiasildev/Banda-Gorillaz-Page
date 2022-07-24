@@ -1,10 +1,10 @@
-/* Error: expected ":".
+/* Error: Undefined variable.
  *    ,
- * 14 |     $aliceblue
- *    |               ^
+ * 13 |     $palette
+ *    |     ^^^^^^^^
  *    '
- *   scss/_body.scss 14:15  @import
- *   scss/styles.scss 4:9   root stylesheet */
+ *   scss/variables.scss 13:5  @import
+ *   scss/styles.scss 6:9      root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ":".\a    \2577 \a 14 \2502      $aliceblue\d\a    \2502                ^\a    \2575 \a   scss/_body.scss 14:15  @import\a   scss/styles.scss 4:9   root stylesheet';
+  content: "Error: Undefined variable.\a    \2577 \a 13 \2502      $palette\d\a    \2502      ^^^^^^^^\a    \2575 \a   scss/variables.scss 13:5  @import\a   scss/styles.scss 6:9      root stylesheet";
 }
