@@ -10,7 +10,7 @@
     /*aspectos de la lista*/
 
 
-.title.section__artist.section__music{
+.title.section__music{
 color: map-get($map: $palette, $key: "primary");
 }
 
@@ -70,10 +70,8 @@ h2{
 
 /*store*/    
 img{
-    width: $width;
-    height: auto;
-    margin: auto; 
-    padding: 15px;
+    width: $width;height: auto;margin: auto;  padding: 15px;
+   
 }
      
     

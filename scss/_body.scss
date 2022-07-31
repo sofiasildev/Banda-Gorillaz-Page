@@ -1,6 +1,8 @@
-body
-    .background{
+@import "variables";
+
+body.background{
         background-size: 100%; 
+        background-repeat: no-repeat;
         background-image: url("../media/gorillaz.png");
         background-repeat: repeat-y;
 }
@@ -8,4 +10,26 @@ body
 
 .background__other{ 
     background: black;
+}
+
+#social-container{
+
+            div.redes{ 
+                display: grid; grid-template-columns: repeat(3, 1fr);
+
+
+    } 
+    
+}
+
+section.section__artist{
+        
+    color: map-get($map: $palette, $key: "primary"); margin: 10px;
+       
+}
+
+section.section__music{
+    
+    color: map-get($map: $palette, $key: "primary"); margin: 10px;
+
 }

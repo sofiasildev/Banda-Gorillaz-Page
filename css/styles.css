@@ -2,8 +2,9 @@ header nav ul li {
   height: fit-content;
 }
 
-body .background {
+body.background {
   background-size: 100%;
+  background-repeat: no-repeat;
   background-image: url("../media/gorillaz.png");
   background-repeat: repeat-y;
 }
@@ -12,8 +13,23 @@ body .background {
   background: black;
 }
 
+#social-container div.redes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section.section__artist {
+  color: aliceblue;
+  margin: 10px;
+}
+
+section.section__music {
+  color: aliceblue;
+  margin: 10px;
+}
+
 /*aspectos de la lista*/
-.title.section__artist.section__music {
+.title.section__music {
   color: aliceblue;
 }
 
@@ -68,7 +84,7 @@ h2 {
   width: 20px;
 }
 
-
+/*store*/
 img {
   width: 300px;
   height: auto;
