@@ -1,8 +1,8 @@
-body.background{
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    background-image: url("../media/gorillaz.png");
-    background-repeat: repeat-y;
+body
+    .background{
+        background-size: 100%; 
+        background-image: url("../media/gorillaz.png");
+        background-repeat: repeat-y;
 }
 
 

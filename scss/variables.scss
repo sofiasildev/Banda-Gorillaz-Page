@@ -1,14 +1,10 @@
 
 $width: 300px;
 $height: 350px;
-$black: black;
-$primary: aliceblue;
 
-$palette: map-merge(
-    (
-      "black": black,
-      "primary": aliceblue,
-    ),
-    
-    $palette
+$palette: (
+    "black": black,
+    "primary": aliceblue,
+  
 );
+
